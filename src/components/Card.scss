@@ -21,11 +21,19 @@
 
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 
+  opacity: 0;
+  transform: translateY(50px);
+
   &:hover {
     background-color: #2e3138;
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0,0,0,0.2);
   }
+}
+
+.card-animation {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .card__name, .card__surname {
